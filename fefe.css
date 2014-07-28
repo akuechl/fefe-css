@@ -1,0 +1,81 @@
+/**
+ * CSS for https://blog.fefe.de/
+ *
+ * @author https://github.com/admiralsmaster
+ * @url https://github.com/admiralsmaster/fefe-css
+ * @version 1.0
+ * @license MIT license http://opensource.org/licenses/MIT
+ */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857;
+    padding: 1em;
+    font-size: 18px;
+    max-width: 50em;
+    margin: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+b, strong {
+    font-weight: 700;
+}
+h1, h2, h3 {
+    margin-bottom: 0.8em;
+    margin-top: 1.1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin: 1.5em 0 1em 0;
+    padding: 1em 0 2em;
+    text-align:justify;
+    border-bottom: 1px #000 dashed;
+    position: relative; /*for absolute pos of first link*/
+}
+
+blockquote {
+    margin: 2em 0;
+    border-left: 0.3em rgba(0,0,0,0.1) solid;
+    border-right: 0.3em rgba(0,0,0,0.1) solid;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.05); 
+}
+p {
+    margin: 0.5em 0;
+}
+a {
+    text-decoration: underline;
+    color: #000;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+body > ul > li > a:first-child { /*first list (perm link)*/
+    bottom: 20px;
+    position: absolute;
+    right: 0;
+    font-size: 0.75em;
+}
