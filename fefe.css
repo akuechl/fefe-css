@@ -48,12 +48,18 @@ ul {
     list-style-type: none;
     padding-left: 0;
 }
-ul li {
-    margin: 1.5em 0 1em 0;
-    padding: 1em 0 2em;
-    text-align:justify;
-    border-bottom: 1px #000 dashed;
-    position: relative; /*for absolute pos of first link*/
+ul > li {
+  margin: 1.5em 0 1em 0;
+  padding: 1em 0 2em;
+  border-bottom: 1px #000 dashed;
+  position: relative; /*for absolute pos of first link*/
+}
+ul ol li, ul ul li {
+  margin: 0.75em 0 0.75em 2em;
+  padding-left: 1em;
+}
+li {
+  text-margin: justify;
 }
 
 blockquote {
