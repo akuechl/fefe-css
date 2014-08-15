@@ -52,16 +52,15 @@ ul > li {
   margin: 1.5em 0 1em 0;
   padding: 1em 0 2em;
   border-bottom: 1px #000 dashed;
-  position: relative; /*for absolute pos of first link*/
+  position: relative; /* for absolute position of permanent link */
 }
 ul ol li, ul ul li {
   margin: 0.75em 0 0.75em 2em;
   padding-left: 1em;
 }
 li {
-  text-margin: justify;
+  text-align: justify;
 }
-
 blockquote {
     margin: 2em 0;
     border-left: 0.3em rgba(0,0,0,0.1) solid;
@@ -79,7 +78,7 @@ a {
 a:hover, a:focus {
     text-decoration: none;
 }
-body > ul > li > a:first-child { /*first list (perm link)*/
+body > ul > li > a:first-child { /* first link in list (is permanent link) */
     bottom: 20px;
     position: absolute;
     right: 0;
