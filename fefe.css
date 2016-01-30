@@ -21,6 +21,7 @@ body {
     max-width: 50em;
     margin: auto;
     -webkit-hyphens: auto;
+    -epub-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
