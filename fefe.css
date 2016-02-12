@@ -49,6 +49,9 @@ ul {
     list-style-type: none;
     padding-left: 0;
 }
+ul ul {
+  list-style: disc;
+}
 ul > li {
   margin: 1.5em 0 1em 0;
   padding: 1em 0 2em;
@@ -58,6 +61,8 @@ ul > li {
 ul ol li, ul ul li {
   margin: 0.75em 0 0.75em 2em;
   padding-left: 1em;
+  border-bottom: none; /* reset for cascade lists */
+  padding: 0; /* reset for cascade lists */
 }
 li {
   text-align: justify;
