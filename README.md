@@ -3,4 +3,4 @@ fefe-css [![Codacy Badge](https://api.codacy.com/project/badge/grade/bc35ddb747a
 
 CSS for https://blog.fefe.de/
 
-see https://blog.fefe.de/?css=https://admiralsmaster.github.io/fefe-css/fefe.css
+see https://blog.fefe.de/?css=https://cdn.jsdelivr.net/gh/admiralsmaster/fefe-css@v1.2.0/fefe.css
