@@ -3,4 +3,4 @@ fefe-css [![pipeline status](https://gitlab.com/frickel/fefe-css/badges/master/p
 
 CSS for https://blog.fefe.de/
 
-see https://blog.fefe.de/?css=https://cdn.jsdelivr.net/gh/admiralsmaster/fefe-css@v1.2.0/fefe.css
+see https://blog.fefe.de/?css=https://cdn.jsdelivr.net/gh/admiralsmaster/fefe-css@v1.3.0/fefe.css
