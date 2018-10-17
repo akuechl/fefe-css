@@ -67,7 +67,7 @@ ul ol li, ul ul li {
 li {
   text-align: justify;
 }
-blockquote {
+blockquote, pre {
     margin: 2em 0;
     border-left: 0.3em rgba(0,0,0,0.1) solid;
     border-right: 0.3em rgba(0,0,0,0.1) solid;
